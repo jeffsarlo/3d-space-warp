@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.text-box {
+  width: 630px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid white;
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  padding: 5px;
+}
